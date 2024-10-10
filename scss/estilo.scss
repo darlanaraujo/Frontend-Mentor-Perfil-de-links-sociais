@@ -1,0 +1,94 @@
+@import 'padrao';
+
+
+.page {
+    width: 100%;
+    height: 100vh;
+    background-color: $Grey900;
+    position: relative;
+
+    .modal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 20px;
+
+        .card {
+            width: 400px;
+            background-color: $Grey800;
+            text-align: center;
+
+            padding: 40px;
+            border-radius: 20px;
+
+
+            .avatar {
+                width: 100px;
+                border-radius: 50%;
+                margin-bottom: 30px;
+            }
+
+            .linha {
+                margin-bottom: 30px;
+                
+                .nome {
+                    margin-bottom: 10px;
+                }
+
+                .text-local {
+                    margin-bottom: 25px;
+                    color: $Green;
+                    font-size: 14px;
+                }
+
+                .text-profissao {
+                    font-size: 14px;
+                }
+            }
+
+            .box-botoes {
+                display: grid;
+                gap: 15px;
+
+                .btn {
+                    width: 100%;
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    background-color: $Grey700;
+                    height: 50px;
+                    border-radius: 10px;
+                    color: $White;
+
+                    &:hover {
+                        background-color: $Green;
+                        color: black;
+                    }
+                }
+            }
+        }
+    
+    }
+    .footer {
+        display: flex;
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        
+
+        .text-footer {
+            font-size: 12px;
+            font-weight: 200;
+
+            & a:hover {
+                color: $Green;
+            }
+        }
+    }
+
+
+}

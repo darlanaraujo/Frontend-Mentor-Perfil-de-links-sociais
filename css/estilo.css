@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/* line 7, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/_padrao.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* line 4, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/estilo.scss */
+.page {
+  width: 100%;
+  height: 100vh;
+  background-color: #141414;
+  position: relative;
+}
+
+/* line 10, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/estilo.scss */
+.page .modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+/* line 17, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/estilo.scss */
+.page .modal .card {
+  width: 400px;
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+/* line 26, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/estilo.scss */
+.page .modal .card .avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+/* line 32, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/estilo.scss */
+.page .modal .card .linha {
+  margin-bottom: 30px;
+}
+
+/* line 35, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/estilo.scss */
+.page .modal .card .linha .nome {
+  margin-bottom: 10px;
+}
+
+/* line 39, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/estilo.scss */
+.page .modal .card .linha .text-local {
+  margin-bottom: 25px;
+  color: #c5f82a;
+  font-size: 14px;
+}
+
+/* line 45, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/estilo.scss */
+.page .modal .card .linha .text-profissao {
+  font-size: 14px;
+}
+
+/* line 50, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/estilo.scss */
+.page .modal .card .box-botoes {
+  display: grid;
+  gap: 15px;
+}
+
+/* line 54, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/estilo.scss */
+.page .modal .card .box-botoes .btn {
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  background-color: #333333;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+}
+
+/* line 64, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/estilo.scss */
+.page .modal .card .box-botoes .btn:hover {
+  background-color: #c5f82a;
+  color: black;
+}
+
+/* line 73, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/estilo.scss */
+.page .footer {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* line 83, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/estilo.scss */
+.page .footer .text-footer {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+/* line 87, ../../../../../Users/darlanaraujo/TRABALHOS/github/Estudo/Frontend Mentor/Frontend-Mentor-Perfil-de-links-sociais/scss/estilo.scss */
+.page .footer .text-footer a:hover {
+  color: #c5f82a;
+}
+
+/*# sourceMappingURL=estilo.css.map */
